@@ -2,10 +2,10 @@
 
 namespace Mqlo\NameableCast;
 
-use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Mqlo\Nameable\Nameable;
 
-abstract class NameableCast implements CastsAttributes
+//implements Illuminate\Contracts\Database\Eloquent\CastsAttributes
+abstract class NameableCast
 {
     abstract protected function nameableClass(): string;
 
