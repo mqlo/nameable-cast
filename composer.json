@@ -1,0 +1,22 @@
+{
+    "name": "mqlo/nameable-cast",
+    "keywords": ["laravel", "lumen", "casts"],
+    "description": "This package works best with the mqlo/nameable package for Laravel, Lumen",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "MQLO",
+            "email": "mqlo@test.test"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "mqlo/nameable": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mqlo\\NameableCast\\": "/src"
+        }
+    }
+}

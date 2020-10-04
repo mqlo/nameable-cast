@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e1b70c38650b3f9f98d4dfb38b5f60bb",
+    "packages": [
+        {
+            "name": "mqlo/nameable",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mqlo/nameable.git",
+                "reference": "7e33047cb03ed44b51900ad106440b3914c716c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mqlo/nameable/zipball/7e33047cb03ed44b51900ad106440b3914c716c4",
+                "reference": "7e33047cb03ed44b51900ad106440b3914c716c4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mqlo\\Nameable\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "MQLO",
+                    "email": "mqlo@test.test"
+                }
+            ],
+            "description": "My first package",
+            "time": "2020-10-04T12:03:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.4",
+        "ext-json": "*"
+    },
+    "platform-dev": []
+}
