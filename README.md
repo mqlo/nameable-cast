@@ -1,3 +1,7 @@
+# ATTENTION! CHANGES [mqlo/nameable](https://github.com/mqlo/nameable/) in version v 2.0.0
+ - ~~$nameable->name()~~, $nameable->value();
+ - ~~'name' => $this->name()~~, 'value' => $this->value().
+
 This package works best with the [mqlo/nameable](https://github.com/mqlo/nameable/) package for Laravel, Lumen.
 
 ## Example #1
