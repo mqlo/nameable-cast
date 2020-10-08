@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1b70c38650b3f9f98d4dfb38b5f60bb",
+    "content-hash": "89fce09870cd51491b8a11b132cbcd52",
     "packages": [
         {
             "name": "mqlo/nameable",
-            "version": "v1.0.0",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mqlo/nameable.git",
-                "reference": "7e33047cb03ed44b51900ad106440b3914c716c4"
+                "reference": "45c951dfa715bbcb0e8a1bc512b38d361fa47a64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mqlo/nameable/zipball/7e33047cb03ed44b51900ad106440b3914c716c4",
-                "reference": "7e33047cb03ed44b51900ad106440b3914c716c4",
+                "url": "https://api.github.com/repos/mqlo/nameable/zipball/45c951dfa715bbcb0e8a1bc512b38d361fa47a64",
+                "reference": "45c951dfa715bbcb0e8a1bc512b38d361fa47a64",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 }
             ],
             "description": "My first package",
-            "time": "2020-10-04T12:03:50+00:00"
+            "time": "2020-10-08T09:08:00+00:00"
         }
     ],
     "packages-dev": [],

@@ -27,7 +27,7 @@ abstract class NameableCast
         }
 
         return [
-            $key => $nameable->name(),
+            $key => $nameable->value(),
         ];
     }
 }
