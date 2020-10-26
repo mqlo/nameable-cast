@@ -12,7 +12,7 @@
     "require": {
         "php": "^7.4",
         "ext-json": "*",
-        "mqlo/nameable": "^2.0.1"
+        "mqlo/nameable": "^2.1.0"
     },
     "autoload": {
         "psr-4": {
