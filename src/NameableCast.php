@@ -9,7 +9,7 @@ abstract class NameableCast
 {
     abstract protected function nameableClass(): string;
 
-    final public function get($model, string $key, $nameable, array $attributes)
+    public function get($model, string $key, $nameable, array $attributes)
     {
         if (! $nameable instanceof Nameable) {
             $nameableClass = $this->nameableClass();
@@ -19,7 +19,7 @@ abstract class NameableCast
         return $nameable;
     }
 
-    final public function set($model, string $key, $nameable, array $attributes)
+    public function set($model, string $key, $nameable, array $attributes)
     {
         if (! $nameable instanceof Nameable) {
             $nameableClass = $this->nameableClass();
